@@ -24,5 +24,15 @@ import (
 )
 ```
 
+## Execution
+This is used to execute the program on a linux platform, It is different for windows and MacOs system.
+```bash
+go build && ./http-api
+``` 
+other way to execute the program is 
+```bash
+go run http-api.go
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
